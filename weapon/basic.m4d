@@ -1,0 +1,25 @@
+__WEAPON(0,None,melee,short,blunt,light,0.3)m4_dnl
+__WEAPON(1,Dagger,melee,short,slash,light,1.0)m4_dnl
+__WEAPON(2,Sword,melee,short,slash,heavy,1.0)m4_dnl
+__WEAPON(3,Claymore,melee,long,slash,light,1.0)m4_dnl
+__WEAPON(4,Bardiche,melee,long,slash,heavy,1.0)m4_dnl
+__WEAPON(5,Stiletto,melee,short,pierce,light,1.0)m4_dnl
+__WEAPON(6,Pickaxe,melee,short,pierce,heavy,1.0)m4_dnl
+__WEAPON(7,Rapier,melee,long,pierce,light,1.0)m4_dnl
+__WEAPON(8,Pike,melee,long,pierce,heavy,1.0)m4_dnl
+__WEAPON(9,Club,melee,short,blunt,light,1.0)m4_dnl
+__WEAPON(10,Mace,melee,short,blunt,heavy,1.0)m4_dnl
+__WEAPON(11,Staff,melee,long,blunt,light,1.0)m4_dnl
+__WEAPON(12,War Hammer,melee,long,blunt,heavy,1.0)m4_dnl
+__WEAPON(13,Short Bow (Broadhead),ranged,short,slash,light,1.0)m4_dnl
+__WEAPON(14,Short Bow (Blunt),ranged,short,blunt,light,1.0)m4_dnl
+__WEAPON(15,Short Bow (Bodkin Point),ranged,short,pierce,light,1.0)m4_dnl
+__WEAPON(16,Long Bow (Broadhead),ranged,long,slash,light,1.0)m4_dnl
+__WEAPON(17,Long Bow (Blunt),ranged,long,blunt,light,1.0)m4_dnl
+__WEAPON(18,Long Bow (Bodkin Point),ranged,long,pierce,light,1.0)m4_dnl
+__WEAPON(19,Crossbow (Broadhead),ranged,short,slash,heavy,1.0)m4_dnl
+__WEAPON(20,Crossbow (Blunt),ranged,short,blunt,heavy,1.0)m4_dnl
+__WEAPON(21,Crossbow (Bodkin Point),ranged,short,pierce,heavy,1.0)m4_dnl
+__WEAPON(22,Arbalest (Broadhead),ranged,long,slash,heavy,1.0)m4_dnl
+__WEAPON(23,Arbalest (Blunt),ranged,long,blunt,heavy,1.0)m4_dnl
+__WEAPON(24,Arbalest (Bodkin Point),ranged,long,pierce,heavy,1.0)m4_dnl
