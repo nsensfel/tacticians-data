@@ -6,228 +6,162 @@ m4_ifelse(`
    g, h, i,
    new_e
     A -> anything
-    ~X -> anything but X
-')
+    not(X) -> anything but X
+')m4_dnl
+__TILE_PATTERN_HEADER
 __TILE_PATTERN(
-    A, ~3,  A,
-   ~3, ~3, ~3,
-    A, ~3,  A,
-  ~3
-)
-
+    any, not(3),  any,
+   not(3),  just(3), not(3),
+    any, not(3),  any,
+   TODO)
 __TILE_PATTERN(
-    A, ~3,  A,
-   ~3,  3, ~3,
-    A, ~3,  A,
-   ???
-)
-
+    any, not(3),  any,
+    just(3),  just(3), not(3),
+    any, not(3),  any,
+   TODO)
 __TILE_PATTERN(
-    A, ~3,  A,
-    3,  3, ~3,
-    A, ~3,  A,
-   ???
-)
-
+    any, not(3),  any,
+    just(3),  just(3), not(3),
+    any,  just(3),  any,
+   9)
 __TILE_PATTERN(
-    A, ~3,  A,
-    3,  3, ~3,
-    A,  3,  A,
-   9
-)
-
+    any,  just(3),  any,
+    just(3),  just(3), not(3),
+    any, not(3),  any,
+   10)
 __TILE_PATTERN(
-    A,  3,  A,
-    3,  3, ~3,
-    A, ~3,  A,
-   10
-)
-
+    any, not(3),  any,
+    just(3),  just(3),  just(3),
+    any, not(3),  any,
+   13)
 __TILE_PATTERN(
-    A, ~3,  A,
-    3,  3,  3,
-    A, ~3,  A,
-   13
-)
-
+    any, not(3),  any,
+    just(3),  just(3),  just(3),
+    any,  just(3),  any,
+   6)
 __TILE_PATTERN(
-    A, ~3,  A,
-    3,  3,  3,
-    A,  3,  A,
-   6
-)
-
+    any,  just(3),  any,
+    just(3),  just(3), not(3),
+    any,  just(3),  any,
+   5)
 __TILE_PATTERN(
-    A,  3,  A,
-    3,  3, ~3,
-    A,  3,  A,
-   5
-)
-
+    any,  just(3),  any,
+    just(3),  just(3),  just(3),
+    any, not(3),  any,
+   7)
 __TILE_PATTERN(
-    A,  3,  A,
-    3,  3,  3,
-    A, ~3,  A,
-   7
-)
-
+    any, not(3),  any,
+   not(3),  just(3), not(3),
+    any,  just(3),  any,
+   TODO)
 __TILE_PATTERN(
-    A, ~3,  A,
-   ~3,  3, ~3,
-    A,  3,  A,
-   ???
-)
-
+    any,  just(3),  any,
+   not(3),  just(3), not(3),
+    any,  just(3),  any,
+   12)
 __TILE_PATTERN(
-    A,  3,  A,
-   ~3,  3, ~3,
-    A,  3,  A,
-   12
-)
-
+    any, not(3),  any,
+   not(3),  just(3),  just(3),
+    any,  just(3),  any,
+   8)
 __TILE_PATTERN(
-    A, ~3,  A,
-   ~3,  3,  3,
-    A,  3,  A,
-   8
-)
-
+    any,  just(3),  any,
+   not(3),  just(3),  just(3),
+    any,  just(3),  any,
+   4)
 __TILE_PATTERN(
-    A,  3,  A,
-   ~3,  3,  3,
-    A,  3,  A,
-   4
-)
-
+    any,  just(3),  any,
+   not(3),  just(3), not(3),
+    any, not(3),  any,
+   TODO)
 __TILE_PATTERN(
-    A,  3,  A,
-   ~3,  3, ~3,
-    A, ~3,  A,
-   ???
-)
-
+    any, not(3),  any,
+   not(3),  just(3),  just(3),
+    any, not(3),  any,
+   TODO)
 __TILE_PATTERN(
-    A, ~3,  A,
-   ~3,  3,  3,
-    A, ~3,  A,
-   ???
-)
-
+    any,  just(3),  any,
+   not(3),  just(3),  just(3),
+    any, not(3),  any,
+   11)
 __TILE_PATTERN(
-    A,  3,  A,
-   ~3,  3,  3,
-    A, ~3,  A,
-   11
-)
-
+    any, not(3),  any,
+   not(3),  just(3),  just(3),
+    any, not(3),  any,
+   TODO)
 __TILE_PATTERN(
-    A, ~3,  A,
-   ~3,  3,  3,
-    A, ~3,  A,
-   ???
-)
-
+   not(3),  just(3), not(3),
+   just(3),  just(3),  just(3),
+   not(3),  just(3), not(3),
+   20)
 __TILE_PATTERN(
-   ~3,  3, ~3,
-    3,  3,  3,
-   ~3,  3, ~3,
-   20
-)
-
+    just(3),  just(3), not(3),
+    just(3),  just(3),  just(3),
+   not(3),  just(3), not(3),
+    19)
 __TILE_PATTERN(
-    3,  3, ~3,
-    3,  3,  3,
-   ~3,  3, ~3,
-    19
-)
-
+   not(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+   not(3),  just(3), not(3),
+    28)
 __TILE_PATTERN(
-   ~3,  3,  3,
-    3,  3,  3,
-   ~3,  3, ~3,
-    28
-)
-
+   not(3),  just(3), not(3),
+    just(3),  just(3),  just(3),
+   not(3),  just(3),  just(3),
+    22)
 __TILE_PATTERN(
-   ~3,  3, ~3,
-    3,  3,  3,
-   ~3,  3,  3,
-    22
-)
-
+   not(3),  just(3), not(3),
+    just(3),  just(3),  just(3),
+    just(3),  just(3), not(3),
+    27)
 __TILE_PATTERN(
-   ~3,  3, ~3,
-    3,  3,  3,
-    3,  3, ~3,
-    27
-)
-
+    just(3),  just(3), not(3),
+    just(3),  just(3),  just(3),
+    just(3),  just(3), not(3),
+    23)
 __TILE_PATTERN(
-    3,  3, ~3,
-    3,  3,  3,
-    3,  3, ~3,
-    23
-)
-
+    just(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+   not(3),  just(3), not(3),
+    25)
 __TILE_PATTERN(
-    3,  3,  3,
-    3,  3,  3,
-   ~3,  3, ~3,
-    25
-)
-
+    just(3),  just(3), not(3),
+    just(3),  just(3),  just(3),
+   not(3),  just(3),  just(3),
+    18)
 __TILE_PATTERN(
-    3,  3, ~3,
-    3,  3,  3,
-   ~3,  3,  3,
-    18
-)
-
+   not(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+   not(3),  just(3),  just(3),
+    21)
 __TILE_PATTERN(
-   ~3,  3,  3,
-    3,  3,  3,
-   ~3,  3,  3,
-    21
-)
-
+   not(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+    just(3),  just(3), not(3),
+    24)
 __TILE_PATTERN(
-   ~3,  3,  3,
-    3,  3,  3,
-    3,  3, ~3,
-    24
-)
-
+   not(3),  just(3), not(3),
+    just(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+    26)
 __TILE_PATTERN(
-   ~3,  3, ~3,
-    3,  3,  3,
-    3,  3,  3,
-    26
-)
-
+    just(3),  just(3), not(3),
+    just(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+    17)
 __TILE_PATTERN(
-    3,  3, ~3,
-    3,  3,  3,
-    3,  3,  3,
-    17
-)
-
+   not(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+    16)
 __TILE_PATTERN(
-   ~3,  3,  3,
-    3,  3,  3,
-    3,  3,  3,
-    16
-)
-
+    just(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+    just(3),  just(3), not(3),
+    15)
 __TILE_PATTERN(
-    3,  3,  3,
-    3,  3,  3,
-    3,  3, ~3,
-    15
-)
-
-__TILE_PATTERN(
-   ~3,  3,  3,
-    3,  3,  3,
-    3,  3,  3,
-    15
-)
+   not(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+    just(3),  just(3),  just(3),
+    15)
+__TILE_PATTERN_FOOTER
