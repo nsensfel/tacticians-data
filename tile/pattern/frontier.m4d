@@ -1,0 +1,247 @@
+m4_ifelse(`
+   a, b, c
+   d, e, f,
+   g, h, i,
+   new_e_base,
+   new_e_border,
+   new_e_variant
+   A -> Lower priority tile
+   B -> Higher priority tile
+   any -> anything
+   new_e_variant = -1 -> keep previous one.
+')m4_dnl
+__TILE_PATTERN(
+   A,    A,    A,
+   A,    A,    A,
+   A,    A,    A,
+   A, A, -1)
+__TILE_PATTERN(
+   any,  B,    any,
+   B,    A,    B,
+   any,  B,    any,
+   A, B, 0)
+__TILE_PATTERN(
+   B,    A,    B,
+   A,    A,    A,
+   B,    A,    B,
+   A, B, 1)
+__TILE_PATTERN(
+   any,  A,    B,
+   B,    A,    A,
+   any,  B,    any,
+   A, B, 2)
+__TILE_PATTERN(
+   any,  A,    A,
+   B,    A,    A,
+   any,  B,    any,
+   A, B, 3)
+__TILE_PATTERN(
+   B,    A,    any,
+   A,    A,    B,
+   any,  B,    any,
+   A, B, 4)
+__TILE_PATTERN(
+   A,    A,    any,
+   A,    A,    B,
+   any,  B,    any,
+   A, B, 5)
+__TILE_PATTERN(
+   B,    A,    B,
+   A,    A,    A,
+   any,  B,    any,
+   A, B, 6)
+__TILE_PATTERN(
+   B,    A,    A,
+   A,    A,    A,
+   any,  B,    any,
+   A, B, 7)
+__TILE_PATTERN(
+   A,    A,    B,
+   A,    A,    A,
+   any,  B,    any,
+   A, B, 8)
+__TILE_PATTERN(
+   A,    A,    A,
+   A,    A,    A,
+   any,  B,    any,
+   A, B, 9)
+__TILE_PATTERN(
+   A,    A,    A,
+   A,    A,    A,
+   B,    A,    B,
+   A, B, 10)
+__TILE_PATTERN(
+   A,    A,    A,
+   A,    A,    A,
+   B,    A,    A,
+   A, B, 11)
+__TILE_PATTERN(
+   A,    A,    A,
+   A,    A,    A,
+   A,    A,    B,
+   A, B, 12)
+__TILE_PATTERN(
+   any,  A,    A,
+   B,    A,    A,
+   any,  A,    B,
+   A, B, 13)
+__TILE_PATTERN(
+   any,  A,    B,
+   B,    A,    A,
+   any,  A,    B,
+   A, B, 14)
+__TILE_PATTERN(
+   any,  A,    B,
+   B,    A,    A,
+   any,  A,    A,
+   A, B, 15)
+__TILE_PATTERN(
+   any,  A,    A,
+   B,    A,    A,
+   any,  A,    A,
+   A, B, 16)
+__TILE_PATTERN(
+   B,    A,    A,
+   A,    A,    A,
+   B,    A,    A,
+   A, B, 17)
+__TILE_PATTERN(
+   any,  B,    any,
+   B,    A,    B,
+   any,  A,    any,
+   A, B, 18)
+__TILE_PATTERN(
+   B,    A,    B,
+   A,    A,    A,
+   A,    A,    B,
+   A, B, 19)
+__TILE_PATTERN(
+   B,    A,    B,
+   A,    A,    A,
+   B,    A,    A,
+   A, B, 20)
+__TILE_PATTERN(
+   any,  B,    any,
+   A,    A,    B,
+   any,  B,    any,
+   A, B, 21)
+__TILE_PATTERN(
+   any,  B,    any,
+   B,    A,    A,
+   any,  B,    any,
+   A, B, 22)
+__TILE_PATTERN(
+   any,  A,    any,
+   B,    A,    B,
+   any,  B,    any,
+   A, B, 23)
+__TILE_PATTERN(
+   A,    A,    B,
+   A,    A,    A,
+   B,    A,    B,
+   A, B, 24)
+__TILE_PATTERN(
+   B,    A,    A,
+   A,    A,    A,
+   B,    A,    B,
+   A, B, 25)
+__TILE_PATTERN(
+   any,  A,    any,
+   B,    A,    B,
+   any,  A,    any,
+   A, B, 26)
+__TILE_PATTERN(
+   A,    A,    any,
+   A,    A,    B,
+   B,    A,    any,
+   A, B, 27)
+__TILE_PATTERN(
+   B,    A,    any,
+   A,    A,    B,
+   B,    A,    any,
+   A, B, 28)
+__TILE_PATTERN(
+   B,    A,    any,
+   A,    A,    B,
+   A,    A,    any,
+   A, B, 29)
+__TILE_PATTERN(
+   A,    A,    any,
+   A,    A,    B,
+   A,    A,    any,
+   A, B, 30)
+__TILE_PATTERN(
+   A,    A,    B,
+   A,    A,    A,
+   A,    A,    B,
+   A, B, 31)
+__TILE_PATTERN(
+   any,  B,    any,
+   A,    A,    A,
+   any,  B,    any,
+   A, B, 32)
+__TILE_PATTERN(
+   any,  B,    any,
+   B,    A,    A,
+   any,  A,    B,
+   A, B, 33)
+__TILE_PATTERN(
+   any,  B,    any,
+   B,    A,    A,
+   any,  A,    A,
+   A, B, 34)
+__TILE_PATTERN(
+   any,  B,    any,
+   A,    A,    B,
+   B,    A,    any,
+   A, B, 35)
+__TILE_PATTERN(
+   any,  B,    any,
+   A,    A,    B,
+   A,    A,    any,
+   A, B, 36)
+__TILE_PATTERN(
+   any,  B,    any,
+   A,    A,    A,
+   B,    A,    B,
+   A, B, 37)
+__TILE_PATTERN(
+   any,  B,    any,
+   A,    A,    A,
+   B,    A,    A,
+   A, B, 38)
+__TILE_PATTERN(
+   any,  B,    any,
+   A,    A,    A,
+   A,    A,    B,
+   A, B, 39)
+__TILE_PATTERN(
+   any,  B,    any,
+   A,    A,    A,
+   A,    A,    A,
+   A, B, 40)
+__TILE_PATTERN(
+   B,    A,    B,
+   A,    A,    A,
+   A,    A,    A,
+   A, B, 41)
+__TILE_PATTERN(
+   B,    A,    A,
+   A,    A,    A,
+   A,    A,    B,
+   A, B, 42)
+__TILE_PATTERN(
+   B,    A,    A,
+   A,    A,    A,
+   A,    A,    A,
+   A, B, 43)
+__TILE_PATTERN(
+   A,    A,    B,
+   A,    A,    A,
+   B,    A,    A,
+   A, B, 44)
+__TILE_PATTERN(
+   A,    A,    B,
+   A,    A,    A,
+   A,    A,    A,
+   A, B, 45)
