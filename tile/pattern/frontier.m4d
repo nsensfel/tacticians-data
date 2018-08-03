@@ -1,247 +1,230 @@
-m4_ifelse(`
-   a, b, c
-   d, e, f,
-   g, h, i,
-   new_e_base,
-   new_e_border,
-   new_e_variant
-   A -> Lower priority tile
-   B -> Higher priority tile
-   any -> anything
-   new_e_variant = -1 -> keep previous one.
-')m4_dnl
 __TILE_PATTERN(
-   A,    A,    A,
-   A,    A,    A,
-   A,    A,    A,
-   A, A, -1)
+   2, 1, 2,
+   1, 2, 1,
+   2, 1, 2,
+   0, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   B,    A,    B,
-   any,  B,    any,
-   A, B, 0)
+   1, 0, 1,
+   0, 0, 0,
+   1, 0, 1,
+   1, false)
 __TILE_PATTERN(
-   B,    A,    B,
-   A,    A,    A,
-   B,    A,    B,
-   A, B, 1)
+   2, 0, 1,
+   1, 0, 0,
+   2, 1, 2,
+   2, true)
 __TILE_PATTERN(
-   any,  A,    B,
-   B,    A,    A,
-   any,  B,    any,
-   A, B, 2)
+   2, 0, 0,
+   1, 0, 0,
+   2, 1, 2,
+   3, true)
 __TILE_PATTERN(
-   any,  A,    A,
-   B,    A,    A,
-   any,  B,    any,
-   A, B, 3)
+   1, 0, 2,
+   0, 0, 1,
+   2, 1, 2,
+   4, true)
 __TILE_PATTERN(
-   B,    A,    any,
-   A,    A,    B,
-   any,  B,    any,
-   A, B, 4)
+   0, 0, 2,
+   0, 0, 1,
+   2, 1, 2,
+   5, true)
 __TILE_PATTERN(
-   A,    A,    any,
-   A,    A,    B,
-   any,  B,    any,
-   A, B, 5)
+   1, 0, 1,
+   0, 0, 0,
+   2, 1, 2,
+   6, true)
 __TILE_PATTERN(
-   B,    A,    B,
-   A,    A,    A,
-   any,  B,    any,
-   A, B, 6)
+   1, 0, 0,
+   0, 0, 0,
+   2, 1, 2,
+   7, true)
 __TILE_PATTERN(
-   B,    A,    A,
-   A,    A,    A,
-   any,  B,    any,
-   A, B, 7)
+   0, 0, 1,
+   0, 0, 0,
+   2, 1, 2,
+   8, true)
 __TILE_PATTERN(
-   A,    A,    B,
-   A,    A,    A,
-   any,  B,    any,
-   A, B, 8)
+   0, 0, 0,
+   0, 0, 0,
+   2, 1, 2,
+   9, true)
 __TILE_PATTERN(
-   A,    A,    A,
-   A,    A,    A,
-   any,  B,    any,
-   A, B, 9)
+   0, 0, 0,
+   0, 0, 0,
+   1, 0, 1,
+   10, false)
 __TILE_PATTERN(
-   A,    A,    A,
-   A,    A,    A,
-   B,    A,    B,
-   A, B, 10)
+   0, 0, 0,
+   0, 0, 0,
+   1, 0, 0,
+   11, false)
 __TILE_PATTERN(
-   A,    A,    A,
-   A,    A,    A,
-   B,    A,    A,
-   A, B, 11)
+   0, 0, 0,
+   0, 0, 0,
+   0, 0, 1,
+   12, false)
 __TILE_PATTERN(
-   A,    A,    A,
-   A,    A,    A,
-   A,    A,    B,
-   A, B, 12)
+   2, 0, 0,
+   1, 0, 0,
+   2, 0, 1,
+   13, true)
 __TILE_PATTERN(
-   any,  A,    A,
-   B,    A,    A,
-   any,  A,    B,
-   A, B, 13)
+   2, 0, 1,
+   1, 0, 0,
+   2, 0, 1,
+   14, true)
 __TILE_PATTERN(
-   any,  A,    B,
-   B,    A,    A,
-   any,  A,    B,
-   A, B, 14)
+   2, 0, 1,
+   1, 0, 0,
+   2, 0, 0,
+   15, true)
 __TILE_PATTERN(
-   any,  A,    B,
-   B,    A,    A,
-   any,  A,    A,
-   A, B, 15)
+   2, 0, 0,
+   1, 0, 0,
+   2, 0, 0,
+   16, true)
 __TILE_PATTERN(
-   any,  A,    A,
-   B,    A,    A,
-   any,  A,    A,
-   A, B, 16)
+   1, 0, 0,
+   0, 0, 0,
+   1, 0, 0,
+   17, false)
 __TILE_PATTERN(
-   B,    A,    A,
-   A,    A,    A,
-   B,    A,    A,
-   A, B, 17)
+   2, 1, 2,
+   1, 0, 1,
+   2, 0, 2,
+   18, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   B,    A,    B,
-   any,  A,    any,
-   A, B, 18)
+   1, 0, 1,
+   0, 0, 0,
+   0, 0, 1,
+   19, false)
 __TILE_PATTERN(
-   B,    A,    B,
-   A,    A,    A,
-   A,    A,    B,
-   A, B, 19)
+   1, 0, 1,
+   0, 0, 0,
+   1, 0, 0,
+   20, false)
 __TILE_PATTERN(
-   B,    A,    B,
-   A,    A,    A,
-   B,    A,    A,
-   A, B, 20)
+   2, 1, 2,
+   0, 0, 1,
+   2, 1, 2,
+   21, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   A,    A,    B,
-   any,  B,    any,
-   A, B, 21)
+   2, 1, 2,
+   1, 0, 0,
+   2, 1, 2,
+   22, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   B,    A,    A,
-   any,  B,    any,
-   A, B, 22)
+   2, 0, 2,
+   1, 0, 1,
+   2, 1, 2,
+   23, true)
 __TILE_PATTERN(
-   any,  A,    any,
-   B,    A,    B,
-   any,  B,    any,
-   A, B, 23)
+   0, 0, 1,
+   0, 0, 0,
+   1, 0, 1,
+   24, false)
 __TILE_PATTERN(
-   A,    A,    B,
-   A,    A,    A,
-   B,    A,    B,
-   A, B, 24)
+   1, 0, 0,
+   0, 0, 0,
+   1, 0, 1,
+   25, false)
 __TILE_PATTERN(
-   B,    A,    A,
-   A,    A,    A,
-   B,    A,    B,
-   A, B, 25)
+   2, 0, 2,
+   1, 0, 1,
+   2, 0, 2,
+   26, true)
 __TILE_PATTERN(
-   any,  A,    any,
-   B,    A,    B,
-   any,  A,    any,
-   A, B, 26)
+   0, 0, 2,
+   0, 0, 1,
+   1, 0, 2,
+   27, true)
 __TILE_PATTERN(
-   A,    A,    any,
-   A,    A,    B,
-   B,    A,    any,
-   A, B, 27)
+   1, 0, 2,
+   0, 0, 1,
+   1, 0, 2,
+   28, true)
 __TILE_PATTERN(
-   B,    A,    any,
-   A,    A,    B,
-   B,    A,    any,
-   A, B, 28)
+   1, 0, 2,
+   0, 0, 1,
+   0, 0, 2,
+   29, true)
 __TILE_PATTERN(
-   B,    A,    any,
-   A,    A,    B,
-   A,    A,    any,
-   A, B, 29)
+   0, 0, 2,
+   0, 0, 1,
+   0, 0, 2,
+   30, true)
 __TILE_PATTERN(
-   A,    A,    any,
-   A,    A,    B,
-   A,    A,    any,
-   A, B, 30)
+   0, 0, 1,
+   0, 0, 0,
+   0, 0, 1,
+   31, false)
 __TILE_PATTERN(
-   A,    A,    B,
-   A,    A,    A,
-   A,    A,    B,
-   A, B, 31)
+   2, 1, 2,
+   0, 0, 0,
+   2, 1, 2,
+   32, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   A,    A,    A,
-   any,  B,    any,
-   A, B, 32)
+   2, 1, 2,
+   1, 0, 0,
+   2, 0, 1,
+   33, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   B,    A,    A,
-   any,  A,    B,
-   A, B, 33)
+   2, 1, 2,
+   1, 0, 0,
+   2, 0, 0,
+   34, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   B,    A,    A,
-   any,  A,    A,
-   A, B, 34)
+   2, 1, 2,
+   0, 0, 1,
+   1, 0, 2,
+   35, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   A,    A,    B,
-   B,    A,    any,
-   A, B, 35)
+   2, 1, 2,
+   0, 0, 1,
+   0, 0, 2,
+   36, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   A,    A,    B,
-   A,    A,    any,
-   A, B, 36)
+   2, 1, 2,
+   0, 0, 0,
+   1, 0, 1,
+   37, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   A,    A,    A,
-   B,    A,    B,
-   A, B, 37)
+   2, 1, 2,
+   0, 0, 0,
+   1, 0, 0,
+   38, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   A,    A,    A,
-   B,    A,    A,
-   A, B, 38)
+   2, 1, 2,
+   0, 0, 0,
+   0, 0, 1,
+   39, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   A,    A,    A,
-   A,    A,    B,
-   A, B, 39)
+   2, 1, 2,
+   0, 0, 0,
+   0, 0, 0,
+   40, true)
 __TILE_PATTERN(
-   any,  B,    any,
-   A,    A,    A,
-   A,    A,    A,
-   A, B, 40)
+   1, 0, 1,
+   0, 0, 0,
+   0, 0, 0,
+   41, false)
 __TILE_PATTERN(
-   B,    A,    B,
-   A,    A,    A,
-   A,    A,    A,
-   A, B, 41)
+   1, 0, 0,
+   0, 0, 0,
+   0, 0, 1,
+   42, false)
 __TILE_PATTERN(
-   B,    A,    A,
-   A,    A,    A,
-   A,    A,    B,
-   A, B, 42)
+   1, 0, 0,
+   0, 0, 0,
+   0, 0, 0,
+   43, false)
 __TILE_PATTERN(
-   B,    A,    A,
-   A,    A,    A,
-   A,    A,    A,
-   A, B, 43)
+   0, 0, 1,
+   0, 0, 0,
+   1, 0, 0,
+   44, false)
 __TILE_PATTERN(
-   A,    A,    B,
-   A,    A,    A,
-   B,    A,    A,
-   A, B, 44)
-__TILE_PATTERN(
-   A,    A,    B,
-   A,    A,    A,
-   A,    A,    A,
-   A, B, 45)
+   0, 0, 1,
+   0, 0, 0,
+   0, 0, 0,
+   45, false)
