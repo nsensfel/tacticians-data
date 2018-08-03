@@ -1,0 +1,2 @@
+__TILE_CATEGORY(`Error', 0, 0)m4_dnl
+__TILE_CLASS(0, `Error', __TILE_COST_WHEN_OCCUPIED)

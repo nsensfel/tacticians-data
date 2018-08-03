@@ -1,0 +1,2 @@
+__TILE_CATEGORY(`Water', 3, 1)m4_dnl
+__TILE_CLASS(4, `Clear Water', __TILE_COST_WHEN_OCCUPIED)
