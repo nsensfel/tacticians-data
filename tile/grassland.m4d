@@ -1,4 +1,22 @@
 __TILE_CATEGORY(`Grassland', 1, 2)m4_dnl
-__TILE_CLASS(1, `Grass', 6)
-__TILE_CLASS(3, `Mushroom Infestation', 12)
-__TILE_CLASS(5, `Tree Remains', 24)
+__TILE_CLASS(1,
+   `Grass',
+   6,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST())m4_dnl
+__TILE_CLASS(3,
+   `Mushroom Infestation',
+   12,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST())m4_dnl
+__TILE_CLASS(5,
+   `Tree Remains',
+   24,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST())m4_dnl

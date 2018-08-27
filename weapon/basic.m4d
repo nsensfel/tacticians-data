@@ -1,11 +1,75 @@
-__WEAPON(0,None,melee,short,blunt,light,0.3)m4_dnl
-__WEAPON(1,Dagger,melee,short,slash,light,1.0)m4_dnl
-__WEAPON(2,Sword,melee,short,slash,heavy,1.0)m4_dnl
-__WEAPON(3,Claymore,melee,long,slash,light,1.0)m4_dnl
-__WEAPON(4,Bardiche,melee,long,slash,heavy,1.0)m4_dnl
-__WEAPON(5,Stiletto,melee,short,pierce,light,1.0)m4_dnl
-__WEAPON(6,Pickaxe,melee,short,pierce,heavy,1.0)m4_dnl
-__WEAPON(7,Rapier,melee,long,pierce,light,1.0)m4_dnl
+__WEAPON(0,
+   Unarmed,
+   0,
+   1,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_BLUNT(5)),
+   __MOD_LIST()))m4_dnl
+__WEAPON(1,
+   Old Dagger,
+   0,
+   1,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_SLASH(10)__MOD_PIERCE(10)),
+   __MOD_LIST(__MOD_SPEED(-5)))m4_dnl
+__WEAPON(2,
+   Old Sword,
+   0,
+   1,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_SLASH(20)__MOD_PIERCE(10)),
+   __MOD_LIST(__MOD_SPEED(-10)__MOD_DEXTERITY(-5)))m4_dnl
+__WEAPON(3,
+   Old Claymore,
+   0,
+   2,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_SLASH(20)__MOD_PIERCE(10)),
+   __MOD_LIST(__MOD_SPEED(-15)__MOD_DEXTERITY(-10)))m4_dnl
+__WEAPON(4,
+   Old Bardiche,
+   0,
+   3,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_SLASH(20)__MOD_PIERCE(10)),
+   __MOD_LIST(__MOD_SPEED(-17)__MOD_DEXTERITY(-30)))m4_dnl
+__WEAPON(5,
+   Old Stiletto,
+   0,
+   1,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_PIERCE(20)__MOD_SLASH(10)),
+   __MOD_LIST(__MOD_SPEED(-10)__MOD_DEXTERITY(-5)))m4_dnl
+__WEAPON(6,
+   Old Pickaxe,
+   0,
+   2,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_PIERCE(30)),
+   __MOD_LIST(__MOD_SPEED(-15)__MOD_DEXTERITY(-15)))m4_dnl
+__WEAPON(7,
+   Old Rapier,
+   0,
+   1,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_PIERCE(30)__MOD_SLASH(10)),
+   __MOD_LIST(__MOD_SPEED(-15)__MOD_DEXTERITY(-10)))m4_dnl
+__WEAPON(8,
+   Old Pike,
+   0,
+   3,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_PIERCE(30)__MOD_SLASH(10)),
+   __MOD_LIST(__MOD_SPEED(-20)__MOD_DEXTERITY(-30)))m4_dnl
 __WEAPON(8,Pike,melee,long,pierce,heavy,1.0)m4_dnl
 __WEAPON(9,Club,melee,short,blunt,light,1.0)m4_dnl
 __WEAPON(10,Mace,melee,short,blunt,heavy,1.0)m4_dnl
