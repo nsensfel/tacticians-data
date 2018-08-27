@@ -1,5 +1,30 @@
-__ARMOR(0,None,leather,0.0)m4_dnl
-__ARMOR(1,Last Meal's Pelts,leather,0.5)m4_dnl
-__ARMOR(2,Bits of Wall,plate,0.5)m4_dnl
-__ARMOR(3,Garden Fence,chain,0.5)m4_dnl
-__ARMOR(4,Morrigan's Pity,kinetic,0.5)m4_dnl
+__ARMOR(0,
+   None,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST())m4_dnl
+__ARMOR(1,
+   Meal Pelts,
+   __MOD_LIST(__MOD_CONSTITUTION(-5)__MOD_DEXTERITY(-5)),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_SLASH(10)__MOD_BLUNT(10)__MOD_PIERCE(10)))m4_dnl
+__ARMOR(2,
+   Wall Bits,
+   __MOD_LIST(__MOD_CONSTITUTION(-5)__MOD_DEXTERITY(-5)__MOD_SPEED(-10)__MOD_STRENGTH(-10)),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_SLASH(15)__MOD_BLUNT(10)__MOD_PIERCE(15)))m4_dnl
+__ARMOR(3,
+   Garden Fence,
+   __MOD_LIST(__MOD_CONSTITUTION(-5)__MOD_DEXTERITY(-5)__MOD_SPEED(-10)),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_SLASH(15)__MOD_BLUNT(10)__MOD_PIERCE(10)))m4_dnl
+__ARMOR(4,
+   Morrigan's Pity,
+   __MOD_LIST(__MOD_MIND(-10)),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(__MOD_BLUNT(15)__MOD_PIERCE(10)))m4_dnl
