@@ -1,0 +1,5 @@
+__PORTRAIT(cat,         Black Cat,  mammal,  cat)m4_dnl
+__PORTRAIT(grey_cat,    Grey Cat,   mammal,  grey_cat)m4_dnl
+__PORTRAIT(orange_cat,  Orange Cat, mammal,  orange_cat)m4_dnl
+__PORTRAIT(hermine,     Stoat,      mammal,  hermine)m4_dnl
+__PORTRAIT(crow,        Crow,       bird,    crow)m4_dnl
