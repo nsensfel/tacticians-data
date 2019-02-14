@@ -1,4 +1,4 @@
-__TILE_CATEGORY(`Mud', 2, 2)m4_dnl
+__TILE_CATEGORY(`Mud', 3, 2)m4_dnl
 __TILE_CLASS(2,
    `Mud',
    30,
