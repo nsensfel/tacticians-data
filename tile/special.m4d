@@ -1,0 +1,15 @@
+__TILE_CATEGORY(`Special', 0, 0)m4_dnl
+__TILE_CLASS(0,
+   `Error',
+   __TILE_COST_WHEN_OCCUPIED,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST())m4_dnl
+__TILE_CLASS(6,
+   `Spawn',
+   1,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST())m4_dnl
