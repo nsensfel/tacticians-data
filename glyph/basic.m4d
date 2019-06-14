@@ -5,7 +5,7 @@ __GLYPH(0,
    __MOD_LIST())m4_dnl
 __GLYPH(1,
    The Old Sign,
-   __MOD_LIST(_FIRST_MOD_MAX_HEALTH(75)),
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(75)),
    __MOD_LIST(),
    __MOD_LIST())m4_dnl
 __GLYPH(2,
