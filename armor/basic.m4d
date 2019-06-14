@@ -4,22 +4,77 @@ __ARMOR(0,
    __MOD_LIST(),
    __MOD_LIST())m4_dnl
 __ARMOR(1,
-   Meal Pelts,
+   [PH] Light Armor (Balanced),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-10)__MOD_PARRY(-5)__MOD_DOUBLE_HITS(-5)__MOD_DODGE(-5)),
    __MOD_LIST(),
-   __MOD_LIST(),
-   __MOD_LIST(__FIRST_MOD_SLASH(10)__MOD_BLUNT(10)__MOD_PIERCE(10)))m4_dnl
+   __MOD_LIST(__FIRST_MOD_BASE(5)))m4_dnl
 __ARMOR(2,
-   Wall Bits,
+   [PH] Plate Armor (Balanced),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-30)__MOD_PARRY(-15)__MOD_DOUBLE_HITS(-15)__MOD_DODGE(-15)),
    __MOD_LIST(),
-   __MOD_LIST(),
-   __MOD_LIST(__FIRST_MOD_SLASH(15)__MOD_BLUNT(10)__MOD_PIERCE(15)))m4_dnl
+   __MOD_LIST(__FIRST_MOD_BASE(15)))m4_dnl
 __ARMOR(3,
-   Garden Fence,
+   [PH] Heavy Armor (Balanced),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-20)__MOD_PARRY(-10)__MOD_DOUBLE_HITS(-10)__MOD_DODGE(-10)),
    __MOD_LIST(),
-   __MOD_LIST(),
-   __MOD_LIST(__FIRST_MOD_SLASH(15)__MOD_BLUNT(10)__MOD_PIERCE(10)))m4_dnl
+   __MOD_LIST(__FIRST_MOD_BASE(10)))m4_dnl
 __ARMOR(4,
-   Morrigan's Pity,
+   Assassin Cloak,
+   __MOD_LIST(__FIRST_MOD_DODGE(20)__MOD_PARRY(10)),
    __MOD_LIST(),
+   __MOD_LIST())m4_dnl
+__ARMOR(5,
+   Traveler Clothes,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(25)__MOD_DODGE(5)__MOD_PARRY(2)),
    __MOD_LIST(),
-   __MOD_LIST(__FIRST_MOD_BLUNT(15)__MOD_PIERCE(10)))m4_dnl
+   __MOD_LIST())m4_dnl
+__ARMOR(6,
+   Jester Costume,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-15)__MOD_DODGE(20)__MOD_PARRY(15)__MOD_DOUBLE_HITS(20)__MOD_CRITICAL(15)),
+   __MOD_LIST(),
+   __MOD_LIST())m4_dnl
+__ARMOR(7,
+   [PH] Tailored Light Armor (Slashing),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-10)__MOD_PARRY(-5)__MOD_DOUBLE_HITS(-5)__MOD_DODGE(-5)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_SLASH(15)))m4_dnl
+__ARMOR(8,
+   [PH] Tailored Light Armor (Piercing),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-10)__MOD_PARRY(-5)__MOD_DOUBLE_HITS(-5)__MOD_DODGE(-5)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(15)))m4_dnl
+__ARMOR(9,
+   [PH] Tailored Light Armor (Bludgeoning),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-10)__MOD_PARRY(-5)__MOD_DOUBLE_HITS(-5)__MOD_DODGE(-5)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(15)))m4_dnl
+__ARMOR(10,
+   [PH] Heavy Armor (Slashing),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-20)__MOD_PARRY(-10)__MOD_DOUBLE_HITS(-10)__MOD_DODGE(-10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_SLASH(30)))m4_dnl
+__ARMOR(11,
+   [PH] Heavy Armor (Piercing),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-20)__MOD_PARRY(-10)__MOD_DOUBLE_HITS(-10)__MOD_DODGE(-10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(30)))m4_dnl
+__ARMOR(12,
+   [PH] Heavy Armor (Bludgeoning),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-20)__MOD_PARRY(-10)__MOD_DOUBLE_HITS(-10)__MOD_DODGE(-10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(30)))m4_dnl
+__ARMOR(13,
+   [PH] Plate Armor (Slashing),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-30)__MOD_PARRY(-15)__MOD_DOUBLE_HITS(-15)__MOD_DODGE(-15)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_SLASH(45)))m4_dnl
+__ARMOR(14,
+   [PH] Plate Armor (Piercing),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-30)__MOD_PARRY(-15)__MOD_DOUBLE_HITS(-15)__MOD_DODGE(-15)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(45)))m4_dnl
+__ARMOR(15,
+   [PH] Plate Armor (Bludgeoning),
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-30)__MOD_PARRY(-15)__MOD_DOUBLE_HITS(-15)__MOD_DODGE(-15)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(45)))m4_dnl
