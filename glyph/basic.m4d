@@ -1,50 +1,115 @@
-__GLYPH(0,
-   None,
-   __MOD_LIST(),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(1,
-   Glyph 1,
-   __MOD_LIST(__FIRST_MOD_DODGE_CHANCE(10)__MOD_PARRY_CHANCE(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(2,
-   Glyph 2,
-   __MOD_LIST(__FIRST_MOD_PARRY_CHANCE(10)__MOD_ACCURACY(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(3,
-   Glyph 3,
-   __MOD_LIST(__FIRST_MOD_ACCURACY(10)__MOD_DODGE_CHANCE(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(4,
-   Glyph 4,
-   __MOD_LIST(__FIRST_MOD_CRITICAL_HIT_CHANCE(10)__MOD_DOUBLE_HIT_CHANCE(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(5,
-   Glyph 5,
-   __MOD_LIST(__FIRST_MOD_DOUBLE_HIT_CHANCE(10)__MOD_ACCURACY(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(6,
-   Glyph 6,
-   __MOD_LIST(__FIRST_MOD_ACCURACY(10)__MOD_CRITICAL_HIT_CHANCE(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(7,
-   Glyph 7,
-   __MOD_LIST(__FIRST_MOD_DAMAGE_MODIFIER(10)__MOD_MAX_HEALTH(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(8,
-   Glyph 8,
-   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)__MOD_MOVEMENT_POINTS(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
-__GLYPH(9,
-   Glyph 9,
-   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)__MOD_DAMAGE_MODIFIER(-8)),
-   __MOD_LIST(),
-   __MOD_LIST())m4_dnl
+__MOD_LIST(__MOD_accu(-13),__MOD_pary(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_pary(10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_pary(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mpts(-13),__MOD_pary(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mpts(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mpts(10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mpts(9),__MOD_dodg(-13),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mheal(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mpts(-13),__MOD_mheal(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_dhit(9),__MOD_accu(-13),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_dhit(9),__MOD_dmgm(-13),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_dhit(10),__MOD_mheal(-10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mpts(-10),__MOD_dhit(10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_dodg(9),__MOD_mheal(-13),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_dodg(9),__MOD_pary(-13),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(0),__MOD_pie(9),__MOD_slh(0),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(0),__MOD_pie(7),__MOD_slh(1),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(0),__MOD_pie(3),__MOD_slh(3),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(0),__MOD_pie(1),__MOD_slh(7),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(0),__MOD_pie(0),__MOD_slh(9),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(1),__MOD_pie(7),__MOD_slh(0),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(1),__MOD_pie(4),__MOD_slh(1),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(1),__MOD_pie(1),__MOD_slh(4),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_pie(0),__MOD_blu(1),__MOD_slh(7),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_blu(3),__MOD_pie(3),__MOD_slh(0),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_pie(1),__MOD_blu(4),__MOD_slh(1),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_pie(0),__MOD_blu(3),__MOD_slh(3),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_pie(1),__MOD_blu(7),__MOD_slh(0),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_pie(0),__MOD_blu(7),__MOD_slh(1),)__MOD_LIST(__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST(__MOD_pie(0),__MOD_blu(9),__MOD_slh(0),)__MOD_LIST(__MOD_dmgm(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_dodg(-10),__MOD_dmgm(10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mheal(-13),__MOD_dmgm(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mpts(-10),__MOD_dmgm(10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_crit(9),__MOD_dmgm(-13),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_crit(10),__MOD_dodg(-10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_crit(9),__MOD_dhit(-13),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_crit(10),__MOD_pary(-10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(0),__MOD_pie(9),__MOD_slh(0),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(0),__MOD_pie(7),__MOD_slh(1),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(0),__MOD_pie(3),__MOD_slh(3),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(0),__MOD_pie(1),__MOD_slh(7),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(0),__MOD_pie(0),__MOD_slh(9),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(1),__MOD_pie(7),__MOD_slh(0),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(1),__MOD_pie(4),__MOD_slh(1),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(1),__MOD_pie(1),__MOD_slh(4),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_pie(0),__MOD_blu(1),__MOD_slh(7),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_blu(3),__MOD_pie(3),__MOD_slh(0),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_pie(1),__MOD_blu(4),__MOD_slh(1),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_pie(0),__MOD_blu(3),__MOD_slh(3),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_pie(1),__MOD_blu(7),__MOD_slh(0),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_pie(0),__MOD_blu(7),__MOD_slh(1),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
+__MOD_LIST(__MOD_pie(0),__MOD_blu(9),__MOD_slh(0),)
+__MOD_LIST()__MOD_LIST(__MOD_crit(-13),__MOD_accu(9),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_accu(9),__MOD_dodg(-13),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_accu(10),__MOD_mheal(-10),)
+__MOD_LIST()
+__MOD_LIST()__MOD_LIST(__MOD_mpts(-10),__MOD_accu(10),)
+__MOD_LIST()
+__MOD_LIST()
