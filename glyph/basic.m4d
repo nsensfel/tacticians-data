@@ -1,115 +1,705 @@
-__MOD_LIST(__MOD_accu(-13),__MOD_pary(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_pary(10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_pary(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mpts(-13),__MOD_pary(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mpts(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mpts(10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mpts(9),__MOD_dodg(-13),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mheal(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mpts(-13),__MOD_mheal(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_dhit(9),__MOD_accu(-13),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_dhit(9),__MOD_dmgm(-13),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_dhit(10),__MOD_mheal(-10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mpts(-10),__MOD_dhit(10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_dodg(9),__MOD_mheal(-13),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_dodg(9),__MOD_pary(-13),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(0),__MOD_pie(9),__MOD_slh(0),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(0),__MOD_pie(7),__MOD_slh(1),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(0),__MOD_pie(3),__MOD_slh(3),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(0),__MOD_pie(1),__MOD_slh(7),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(0),__MOD_pie(0),__MOD_slh(9),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(1),__MOD_pie(7),__MOD_slh(0),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(1),__MOD_pie(4),__MOD_slh(1),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(1),__MOD_pie(1),__MOD_slh(4),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_pie(0),__MOD_blu(1),__MOD_slh(7),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_blu(3),__MOD_pie(3),__MOD_slh(0),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_pie(1),__MOD_blu(4),__MOD_slh(1),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_pie(0),__MOD_blu(3),__MOD_slh(3),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_pie(1),__MOD_blu(7),__MOD_slh(0),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_pie(0),__MOD_blu(7),__MOD_slh(1),)__MOD_LIST(__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST(__MOD_pie(0),__MOD_blu(9),__MOD_slh(0),)__MOD_LIST(__MOD_dmgm(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_dodg(-10),__MOD_dmgm(10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mheal(-13),__MOD_dmgm(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mpts(-10),__MOD_dmgm(10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_crit(9),__MOD_dmgm(-13),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_crit(10),__MOD_dodg(-10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_crit(9),__MOD_dhit(-13),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_crit(10),__MOD_pary(-10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(0),__MOD_pie(9),__MOD_slh(0),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(0),__MOD_pie(7),__MOD_slh(1),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(0),__MOD_pie(3),__MOD_slh(3),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(0),__MOD_pie(1),__MOD_slh(7),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(0),__MOD_pie(0),__MOD_slh(9),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(1),__MOD_pie(7),__MOD_slh(0),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(1),__MOD_pie(4),__MOD_slh(1),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(1),__MOD_pie(1),__MOD_slh(4),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_pie(0),__MOD_blu(1),__MOD_slh(7),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_blu(3),__MOD_pie(3),__MOD_slh(0),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_pie(1),__MOD_blu(4),__MOD_slh(1),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_pie(0),__MOD_blu(3),__MOD_slh(3),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_pie(1),__MOD_blu(7),__MOD_slh(0),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_pie(0),__MOD_blu(7),__MOD_slh(1),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),)
-__MOD_LIST(__MOD_pie(0),__MOD_blu(9),__MOD_slh(0),)
-__MOD_LIST()__MOD_LIST(__MOD_crit(-13),__MOD_accu(9),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_accu(9),__MOD_dodg(-13),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_accu(10),__MOD_mheal(-10),)
-__MOD_LIST()
-__MOD_LIST()__MOD_LIST(__MOD_mpts(-10),__MOD_accu(10),)
-__MOD_LIST()
-__MOD_LIST()
+__GLYPH(0,
+   Glyph 0,
+   __MOD_LIST(__FIRST_MOD_ACCURACY(-8)__MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(1,
+   Glyph 1,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-10)),
+   __MOD_LIST())
+__GLYPH(2,
+   Glyph 2,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-6)__MOD_SLASH(-2)),
+   __MOD_LIST())
+__GLYPH(3,
+   Glyph 3,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-3)__MOD_SLASH(-4)),
+   __MOD_LIST())
+__GLYPH(4,
+   Glyph 4,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-2)__MOD_SLASH(-6)),
+   __MOD_LIST())
+__GLYPH(5,
+   Glyph 5,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_SLASH(-10)),
+   __MOD_LIST())
+__GLYPH(6,
+   Glyph 6,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_PIERCE(-6)),
+   __MOD_LIST())
+__GLYPH(7,
+   Glyph 7,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-3)__MOD_SLASH(-2)),
+   __MOD_LIST())
+__GLYPH(8,
+   Glyph 8,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-2)__MOD_SLASH(-3)),
+   __MOD_LIST())
+__GLYPH(9,
+   Glyph 9,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_SLASH(-6)),
+   __MOD_LIST())
+__GLYPH(10,
+   Glyph 10,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-3)__MOD_PIERCE(-4)),
+   __MOD_LIST())
+__GLYPH(11,
+   Glyph 11,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-3)__MOD_SLASH(-2)),
+   __MOD_LIST())
+__GLYPH(12,
+   Glyph 12,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-3)__MOD_SLASH(-4)),
+   __MOD_LIST())
+__GLYPH(13,
+   Glyph 13,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-2)__MOD_BLUNT(-6)),
+   __MOD_LIST())
+__GLYPH(14,
+   Glyph 14,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-6)__MOD_SLASH(-2)),
+   __MOD_LIST())
+__GLYPH(15,
+   Glyph 15,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-10)),
+   __MOD_LIST())
+__GLYPH(16,
+   Glyph 16,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-8)))
+__GLYPH(17,
+   Glyph 17,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-6)__MOD_SLASH(-1)))
+__GLYPH(18,
+   Glyph 18,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-2)__MOD_SLASH(-4)))
+__GLYPH(19,
+   Glyph 19,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_SLASH(-6)))
+__GLYPH(20,
+   Glyph 20,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_SLASH(-8)))
+__GLYPH(21,
+   Glyph 21,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-6)))
+__GLYPH(22,
+   Glyph 22,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-3)__MOD_SLASH(-1)))
+__GLYPH(23,
+   Glyph 23,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-1)__MOD_SLASH(-3)))
+__GLYPH(24,
+   Glyph 24,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_SLASH(-6)))
+__GLYPH(25,
+   Glyph 25,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_PIERCE(-4)))
+__GLYPH(26,
+   Glyph 26,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-3)__MOD_SLASH(-1)))
+__GLYPH(27,
+   Glyph 27,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_SLASH(-4)))
+__GLYPH(28,
+   Glyph 28,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-6)))
+__GLYPH(29,
+   Glyph 29,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-6)__MOD_SLASH(-1)))
+__GLYPH(30,
+   Glyph 30,
+   __MOD_LIST(__FIRST_MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-8)))
+__GLYPH(31,
+   Glyph 31,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-8)__MOD_PARRY(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(32,
+   Glyph 32,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-8)),
+   __MOD_LIST())
+__GLYPH(33,
+   Glyph 33,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-6)__MOD_SLASH(-1)),
+   __MOD_LIST())
+__GLYPH(34,
+   Glyph 34,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-2)__MOD_SLASH(-4)),
+   __MOD_LIST())
+__GLYPH(35,
+   Glyph 35,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_SLASH(-6)),
+   __MOD_LIST())
+__GLYPH(36,
+   Glyph 36,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_SLASH(-8)),
+   __MOD_LIST())
+__GLYPH(37,
+   Glyph 37,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-6)),
+   __MOD_LIST())
+__GLYPH(38,
+   Glyph 38,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-3)__MOD_SLASH(-1)),
+   __MOD_LIST())
+__GLYPH(39,
+   Glyph 39,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-1)__MOD_SLASH(-3)),
+   __MOD_LIST())
+__GLYPH(40,
+   Glyph 40,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_SLASH(-6)),
+   __MOD_LIST())
+__GLYPH(41,
+   Glyph 41,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_PIERCE(-4)),
+   __MOD_LIST())
+__GLYPH(42,
+   Glyph 42,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-3)__MOD_SLASH(-1)),
+   __MOD_LIST())
+__GLYPH(43,
+   Glyph 43,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_SLASH(-4)),
+   __MOD_LIST())
+__GLYPH(44,
+   Glyph 44,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-6)),
+   __MOD_LIST())
+__GLYPH(45,
+   Glyph 45,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-6)__MOD_SLASH(-1)),
+   __MOD_LIST())
+__GLYPH(46,
+   Glyph 46,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-8)),
+   __MOD_LIST())
+__GLYPH(47,
+   Glyph 47,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-10)))
+__GLYPH(48,
+   Glyph 48,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-6)__MOD_SLASH(-2)))
+__GLYPH(49,
+   Glyph 49,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-3)__MOD_SLASH(-4)))
+__GLYPH(50,
+   Glyph 50,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-2)__MOD_SLASH(-6)))
+__GLYPH(51,
+   Glyph 51,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_SLASH(-10)))
+__GLYPH(52,
+   Glyph 52,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_PIERCE(-6)))
+__GLYPH(53,
+   Glyph 53,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-3)__MOD_SLASH(-2)))
+__GLYPH(54,
+   Glyph 54,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-2)__MOD_SLASH(-3)))
+__GLYPH(55,
+   Glyph 55,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_SLASH(-6)))
+__GLYPH(56,
+   Glyph 56,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-3)__MOD_PIERCE(-4)))
+__GLYPH(57,
+   Glyph 57,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-3)__MOD_SLASH(-2)))
+__GLYPH(58,
+   Glyph 58,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-3)__MOD_SLASH(-4)))
+__GLYPH(59,
+   Glyph 59,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-2)__MOD_BLUNT(-6)))
+__GLYPH(60,
+   Glyph 60,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-6)__MOD_SLASH(-2)))
+__GLYPH(61,
+   Glyph 61,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-10)))
+__GLYPH(62,
+   Glyph 62,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(10)__MOD_DODGE(-8)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(63,
+   Glyph 63,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-8)),
+   __MOD_LIST())
+__GLYPH(64,
+   Glyph 64,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-6)__MOD_SLASH(-1)),
+   __MOD_LIST())
+__GLYPH(65,
+   Glyph 65,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-2)__MOD_SLASH(-4)),
+   __MOD_LIST())
+__GLYPH(66,
+   Glyph 66,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_SLASH(-6)),
+   __MOD_LIST())
+__GLYPH(67,
+   Glyph 67,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_SLASH(-8)),
+   __MOD_LIST())
+__GLYPH(68,
+   Glyph 68,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-6)),
+   __MOD_LIST())
+__GLYPH(69,
+   Glyph 69,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-3)__MOD_SLASH(-1)),
+   __MOD_LIST())
+__GLYPH(70,
+   Glyph 70,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-1)__MOD_SLASH(-3)),
+   __MOD_LIST())
+__GLYPH(71,
+   Glyph 71,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_SLASH(-6)),
+   __MOD_LIST())
+__GLYPH(72,
+   Glyph 72,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_PIERCE(-4)),
+   __MOD_LIST())
+__GLYPH(73,
+   Glyph 73,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-3)__MOD_SLASH(-1)),
+   __MOD_LIST())
+__GLYPH(74,
+   Glyph 74,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_SLASH(-4)),
+   __MOD_LIST())
+__GLYPH(75,
+   Glyph 75,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-6)),
+   __MOD_LIST())
+__GLYPH(76,
+   Glyph 76,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-6)__MOD_SLASH(-1)),
+   __MOD_LIST())
+__GLYPH(77,
+   Glyph 77,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(10)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-8)),
+   __MOD_LIST())
+__GLYPH(78,
+   Glyph 78,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-8)__MOD_MAX_HEALTH(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(79,
+   Glyph 79,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(10)__MOD_ACCURACY(-8)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(80,
+   Glyph 80,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(10)__MOD_DAMAGE(-8)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(81,
+   Glyph 81,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(10)__MOD_MAX_HEALTH(-10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(82,
+   Glyph 82,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-10)__MOD_DOUBLE_HITS(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(83,
+   Glyph 83,
+   __MOD_LIST(__FIRST_MOD_DODGE(10)__MOD_MAX_HEALTH(-8)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(84,
+   Glyph 84,
+   __MOD_LIST(__FIRST_MOD_DODGE(10)__MOD_PARRY(-8)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(85,
+   Glyph 85,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(10)))
+__GLYPH(86,
+   Glyph 86,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(6)__MOD_SLASH(2)))
+__GLYPH(87,
+   Glyph 87,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(3)__MOD_SLASH(4)))
+__GLYPH(88,
+   Glyph 88,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(2)__MOD_SLASH(6)))
+__GLYPH(89,
+   Glyph 89,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_SLASH(10)))
+__GLYPH(90,
+   Glyph 90,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(2)__MOD_PIERCE(6)))
+__GLYPH(91,
+   Glyph 91,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(1)__MOD_PIERCE(3)__MOD_SLASH(2)))
+__GLYPH(92,
+   Glyph 92,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(1)__MOD_PIERCE(2)__MOD_SLASH(3)))
+__GLYPH(93,
+   Glyph 93,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(2)__MOD_SLASH(6)))
+__GLYPH(94,
+   Glyph 94,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(3)__MOD_PIERCE(4)))
+__GLYPH(95,
+   Glyph 95,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(1)__MOD_BLUNT(3)__MOD_SLASH(2)))
+__GLYPH(96,
+   Glyph 96,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(3)__MOD_SLASH(4)))
+__GLYPH(97,
+   Glyph 97,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(2)__MOD_BLUNT(6)))
+__GLYPH(98,
+   Glyph 98,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(6)__MOD_SLASH(2)))
+__GLYPH(99,
+   Glyph 99,
+   __MOD_LIST(__FIRST_MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(10)))
+__GLYPH(100,
+   Glyph 100,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-8)))
+__GLYPH(101,
+   Glyph 101,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-6)__MOD_SLASH(-1)))
+__GLYPH(102,
+   Glyph 102,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-2)__MOD_SLASH(-4)))
+__GLYPH(103,
+   Glyph 103,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_SLASH(-6)))
+__GLYPH(104,
+   Glyph 104,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_SLASH(-8)))
+__GLYPH(105,
+   Glyph 105,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-6)))
+__GLYPH(106,
+   Glyph 106,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-3)__MOD_SLASH(-1)))
+__GLYPH(107,
+   Glyph 107,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_PIERCE(-1)__MOD_SLASH(-3)))
+__GLYPH(108,
+   Glyph 108,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-1)__MOD_SLASH(-6)))
+__GLYPH(109,
+   Glyph 109,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_PIERCE(-4)))
+__GLYPH(110,
+   Glyph 110,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-3)__MOD_SLASH(-1)))
+__GLYPH(111,
+   Glyph 111,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-2)__MOD_SLASH(-4)))
+__GLYPH(112,
+   Glyph 112,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_PIERCE(-1)__MOD_BLUNT(-6)))
+__GLYPH(113,
+   Glyph 113,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-6)__MOD_SLASH(-1)))
+__GLYPH(114,
+   Glyph 114,
+   __MOD_LIST(__FIRST_MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST(__FIRST_MOD_BLUNT(-8)))
+__GLYPH(115,
+   Glyph 115,
+   __MOD_LIST(__FIRST_MOD_DODGE(-10)__MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(116,
+   Glyph 116,
+   __MOD_LIST(__FIRST_MOD_MAX_HEALTH(-8)__MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(117,
+   Glyph 117,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-10)__MOD_DAMAGE(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(118,
+   Glyph 118,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(10)__MOD_DAMAGE(-8)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(119,
+   Glyph 119,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(10)__MOD_DODGE(-10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(120,
+   Glyph 120,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(10)__MOD_DOUBLE_HITS(-8)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(121,
+   Glyph 121,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(10)__MOD_PARRY(-10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(122,
+   Glyph 122,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(10)),
+   __MOD_LIST())
+__GLYPH(123,
+   Glyph 123,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(6)__MOD_SLASH(2)),
+   __MOD_LIST())
+__GLYPH(124,
+   Glyph 124,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(3)__MOD_SLASH(4)),
+   __MOD_LIST())
+__GLYPH(125,
+   Glyph 125,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(2)__MOD_SLASH(6)),
+   __MOD_LIST())
+__GLYPH(126,
+   Glyph 126,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_SLASH(10)),
+   __MOD_LIST())
+__GLYPH(127,
+   Glyph 127,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(2)__MOD_PIERCE(6)),
+   __MOD_LIST())
+__GLYPH(128,
+   Glyph 128,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(1)__MOD_PIERCE(3)__MOD_SLASH(2)),
+   __MOD_LIST())
+__GLYPH(129,
+   Glyph 129,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(1)__MOD_PIERCE(2)__MOD_SLASH(3)),
+   __MOD_LIST())
+__GLYPH(130,
+   Glyph 130,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(2)__MOD_SLASH(6)),
+   __MOD_LIST())
+__GLYPH(131,
+   Glyph 131,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(3)__MOD_PIERCE(4)),
+   __MOD_LIST())
+__GLYPH(132,
+   Glyph 132,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(1)__MOD_BLUNT(3)__MOD_SLASH(2)),
+   __MOD_LIST())
+__GLYPH(133,
+   Glyph 133,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(3)__MOD_SLASH(4)),
+   __MOD_LIST())
+__GLYPH(134,
+   Glyph 134,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_PIERCE(2)__MOD_BLUNT(6)),
+   __MOD_LIST())
+__GLYPH(135,
+   Glyph 135,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(6)__MOD_SLASH(2)),
+   __MOD_LIST())
+__GLYPH(136,
+   Glyph 136,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)),
+   __MOD_LIST(__FIRST_MOD_BLUNT(10)),
+   __MOD_LIST())
+__GLYPH(137,
+   Glyph 137,
+   __MOD_LIST(__FIRST_MOD_CRITICAL(-8)__MOD_ACCURACY(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(138,
+   Glyph 138,
+   __MOD_LIST(__FIRST_MOD_ACCURACY(10)__MOD_DODGE(-8)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(139,
+   Glyph 139,
+   __MOD_LIST(__FIRST_MOD_ACCURACY(10)__MOD_MAX_HEALTH(-10)),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(140,
+   Glyph 140,
+   __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-10)__MOD_ACCURACY(10)),
+   __MOD_LIST(),
+   __MOD_LIST())
