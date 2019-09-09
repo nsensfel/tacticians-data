@@ -1,6 +1,12 @@
 __GLYPH(0,
-   Glyph 0,
+   Empty,
    0,
+   __MOD_LIST(),
+   __MOD_LIST(),
+   __MOD_LIST())
+__GLYPH(s0,
+   Glyph 0,
+   s0,
    __MOD_LIST(__FIRST_MOD_ACCURACY(-8)__MOD_PARRY(10)),
    __MOD_LIST(),
    __MOD_LIST())
