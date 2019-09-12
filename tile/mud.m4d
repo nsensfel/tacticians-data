@@ -2,7 +2,6 @@ __TILE_CATEGORY(`Mud', 3, 2)m4_dnl
 __TILE_CLASS(2,
    `Mud',
    30,
-   __MOD_LIST(),
    __MOD_LIST(__FIRST_MOD_MOVEMENT_POINTS(-10)__MOD_DODGE(-15)),
    __MOD_LIST(),
    __MOD_LIST())m4_dnl

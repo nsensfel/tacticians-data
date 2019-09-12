@@ -4,5 +4,4 @@ __TILE_CLASS(4,
    __TILE_COST_WHEN_OCCUPIED,
    __MOD_LIST(),
    __MOD_LIST(),
-   __MOD_LIST(),
    __MOD_LIST())m4_dnl
